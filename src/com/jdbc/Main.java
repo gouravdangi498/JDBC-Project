@@ -19,8 +19,7 @@ public class Main {
             System.out.print("Enter your choice: ");
 
             int choice = ds.nextInt();
-            ds.nextLine(); // Clear buffer
-
+            ds.nextLine(); 
             switch (choice) {
                 case 1:
                     System.out.print("Enter name: ");
